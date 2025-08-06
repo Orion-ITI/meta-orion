@@ -1,0 +1,9 @@
+[Unit]
+Description=Weston VNC Socket
+
+[Socket]
+ListenStream=5900
+Accept=yes
+
+[Install]
+WantedBy=sockets.target
