@@ -34,8 +34,11 @@ IMAGE_INSTALL:append = " \
 "
 
 # SOME/IP stack
-# TODO: Add dependencies here
 IMAGE_INSTALL:append = " \
+    someip \
+    capicxx-core-runtime \
+    capicxx-someip-runtime \
+    boost \
 "
 
 # Custom components
